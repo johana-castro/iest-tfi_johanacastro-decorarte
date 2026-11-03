@@ -26,7 +26,7 @@ export default function ServiciosPage() {
         etiqueta="Propuestas personalizadas"
         titulo="Nuestros servicios"
         descripcion=""
-        imagen="/public/media/hero-servicios.jpg"
+        imagen="/media/hero-servicios.jpg"
 
       />
 
