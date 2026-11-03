@@ -195,7 +195,7 @@ h4,
   padding: 90px max(24px, calc((100% - 1160px) / 2));
   background:
     linear-gradient(90deg, rgba(34, 27, 30, 0.64), rgba(34, 27, 30, 0.08)),
-    url("/media/hero-decorarte.jpg") center/cover;
+    url("/media/hero-decorarte.webp") center/cover;
   color: white;
 }
 .home-hero > div {
@@ -1022,10 +1022,10 @@ h4,
 .page-hero { background-position:center; background-size:cover; }
 .page-hero--image .display-title {color:#fff;}
 .page-hero--image .eyebrow {color:#ffe4ee;}
-/* Para cada hero, pasá imagen="/media/hero-productos.jpg" al componente PageHeader. */
+/* Para cada hero, pasá imagen="/media/hero-productos.webp" al componente PageHeader. */
 .home-hero > div {width:100%;max-width:1280px;}
 .home-hero > div > div {margin-left:0;}
-.home-idea-cta {background:linear-gradient(90deg,rgba(58,29,46,.85),rgba(58,29,46,.65)),url('/media/hero-decorarte.jpg') center/cover;}
+.home-idea-cta {background:linear-gradient(90deg,rgba(58,29,46,.85),rgba(58,29,46,.65)),url('/media/hero-decorarte.webp') center/cover;}
 .footer-main a,.footer-main p,.footer-main h3 {font-size:14px;}
 .footer-bottom {font-size:12px;}
 .footer-brand p {font-size:18px;}

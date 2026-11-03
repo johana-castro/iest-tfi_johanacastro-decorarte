@@ -44,7 +44,7 @@ export default function PublicacionGuard() {
     return (
       <main className="flex min-h-screen items-center justify-center bg-rose-50 px-5">
         <section className="w-full max-w-xl rounded-3xl border border-rose-100 bg-white p-8 text-center shadow-lg sm:p-12">
-          <img src="/marca/icono-decorarte.png" alt="DecorArte" className="mx-auto mb-6 h-20 w-20 object-contain" />
+          <img src="/marca/icono-decorarte.webp" alt="DecorArte" className="mx-auto mb-6 h-20 w-20 object-contain" />
           <h1 className="text-3xl font-bold text-rose-950">Sitio temporalmente no disponible</h1>
           <p className="mt-5 leading-relaxed text-neutral-600">{data.mensaje_bloqueo || 'El sitio se encuentra temporalmente fuera de servicio.'}</p>
           <p className="mt-6 text-sm text-neutral-400">Gracias por tu comprensión.</p>

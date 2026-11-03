@@ -79,7 +79,7 @@ export default function ContactoPage() {
         etiqueta="Estamos para escucharte"
         titulo="Contacto"
         descripcion="Contanos qué necesitás, qué estás buscando o qué idea te gustaría hacer realidad."
-        imagen="/media/hero-contacto.jpg"
+        imagen="/media/hero-contacto.webp"
       />
 
       <section className="section-container contact-layout py-section contact-minimal">

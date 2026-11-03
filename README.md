@@ -111,7 +111,7 @@ El bucket `catalogo` contiene rutas `productos/` y `servicios/`. Los formularios
 
 ```text
 .
-├── AGENTS.md · CLAUDE.md · MEMORY.md · memory.md
+├── AGENTS.md · CLAUDE.md · MEMORY.md
 ├── docs/                 # TP3/TP4, arquitectura, seguridad, identidad e informe
 ├── specs/                # 3 funcionalidades SDD con fases y verificación
 ├── .agents/skills/       # 2 skills propias + guía de skills externas

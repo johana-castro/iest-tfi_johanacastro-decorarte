@@ -18,7 +18,7 @@
 - **Alternativo:** isotipo PNG transparente para favicon y una versión JPG con fondo para contextos que requieran superficie clara.
 - **Uso:** conservar proporciones y colores; dejar espacio libre alrededor y usar fondos que permitan leer el nombre.
 - **No hacer:** estirar, girar, cambiar colores sin criterio, agregar sombras fuertes ni colocar sobre fondos que dificulten su lectura.
-- Archivos: `../public/marca/logo-decorarte.png`; isotipo `../public/marca/icono-decorarte.png`.
+- Archivos: `../public/marca/logo-decorarte.webp`; isotipo `../public/marca/icono-decorarte.webp`.
 
 ## Paleta de colores
 

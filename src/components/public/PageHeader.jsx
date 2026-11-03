@@ -1,6 +1,6 @@
-/** Imágenes opcionales: public/media/hero-nosotros.jpg, hero-productos.jpg, etc. */
+/** Imágenes opcionales: public/media/hero-nosotros.webp, hero-productos.webp, etc. */
 export default function PageHeader({ etiqueta, titulo, imagen }) {
-  // Para agregar una imagen, pasá imagen="/media/archivo.jpg" desde cada página.
+  // Para agregar una imagen, pasá imagen="/media/archivo.webp" desde cada página.
   const fondo = imagen || null;
   return (
     <section className={`page-hero ${fondo ? "page-hero--image" : ""}`}

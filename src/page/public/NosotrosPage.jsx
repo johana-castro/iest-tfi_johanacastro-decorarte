@@ -30,7 +30,7 @@ export default function NosotrosPage() {
   return (
     <main className="bg-stone-50">
       <PageHeader
-        imagen="/media/nosotros-decorarte.jpg"
+        imagen="/media/nosotros-decorarte.webp"
         etiqueta="Conocé nuestra esencia"
         titulo="Sobre DecorArte"
         descripcion="Un espacio dedicado a la decoración, las manualidades y las creaciones artesanales."
@@ -62,7 +62,7 @@ export default function NosotrosPage() {
           </div>
         </div>
 
-        <div className="overflow-hidden rounded-3xl shadow-[0_18px_48px_rgba(78,50,61,.13)]"><img src="/media/nosotros-decorarte.jpg" alt="Espacio de trabajo artesanal de DecorArte con herramientas y materiales para crear adornos" loading="lazy" className="h-full min-h-[320px] w-full object-cover"/></div>
+        <div className="overflow-hidden rounded-3xl shadow-[0_18px_48px_rgba(78,50,61,.13)]"><img src="/media/nosotros-decorarte.webp" alt="Espacio de trabajo artesanal de DecorArte con herramientas y materiales para crear adornos" loading="lazy" className="h-full min-h-[320px] w-full object-cover"/></div>
       </section>
 
       <section className="bg-white px-5 py-16">

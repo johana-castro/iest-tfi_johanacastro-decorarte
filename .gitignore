@@ -89,11 +89,3 @@ Desktop.ini
 *.bak
 *.old
 *.orig
-
-
-.agents/
-.opencode/
-.AGENTS
-.memory
-skills-lock
-doc/

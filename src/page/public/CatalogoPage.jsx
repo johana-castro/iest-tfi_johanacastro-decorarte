@@ -105,7 +105,7 @@ export default function CatalogoPage() {
              etiqueta="Detalles unicos"
              titulo="Productos"
              descripcion="Encontrá respuestas a las consultas más habituales sobre nuestros productos y servicios."
-             imagen="/media/hero-productos.jpg"
+             imagen="/media/hero-productos.webp"
            />
 
       <section className="section-container py-section">
