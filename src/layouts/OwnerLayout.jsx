@@ -81,7 +81,7 @@ export default function OwnerLayout() {
     <div className="admin-shell">
       <aside className={`admin-sidebar ${collapsed ? "collapsed" : ""}`}>
         <NavLink to="/dueno" className="admin-sidebar-brand">
-          <img src="/marca/icono-decorarte.webp" alt="" />
+          <img src="./marca/icono-decorarte.webp" alt="" />
           <span>DecorArte</span>
         </NavLink>
         <button

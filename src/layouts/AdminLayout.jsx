@@ -43,7 +43,7 @@ export default function AdminLayout() {
     <div className="admin-shell">
       <aside className={`admin-sidebar ${collapsed ? "collapsed" : ""}`}>
         <NavLink to="/admin" className="admin-sidebar-brand">
-          <img src="/marca/icono-decorarte.webp" alt="" />
+          <img src="./marca/icono-decorarte.webp" alt="" />
           <span>DecorArte</span>
         </NavLink>
         <button

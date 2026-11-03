@@ -21,7 +21,7 @@ npm test         # Pruebas unitarias Node (node:test)
 4. **Seguridad:** Nunca exponer `SERVICE_ROLE_KEY` en el cliente o variables `VITE_*`. Mantener RLS y validación del lado servidor.
 5. **Estilos:** Mantener colores y tipografías mediante tokens CSS en `src/index.css` (Playfair Display, Montserrat, paleta de marca).
 6. **Accesibilidad y Responsive:** Mobile-first desde 360px, foco visible, etiquetas y textos `alt` descriptivos.
-7. **Imágenes:** Usar formatos `.webp` para optimizar rendimiento. Las rutas de imágenes deben ser relativas a la carpeta `public`.
+7. **Imágenes:** Usar formatos `.webp` para optimizar rendimiento. Las rutas de imágenes deben ser relativas (ej. `./media/...`) para asegurar su correcta visualización en despliegues como Vercel.
 
 ## Flujo SDD y Verificación
 - Antes de implementar: leer spec en `specs/`, clarificaciones, plan y tareas.

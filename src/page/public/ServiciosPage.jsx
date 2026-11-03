@@ -26,7 +26,7 @@ export default function ServiciosPage() {
         etiqueta="Propuestas personalizadas"
         titulo="Nuestros servicios"
         descripcion=""
-        imagen="/media/hero-servicios.webp"
+        imagen="./media/hero-servicios.webp"
 
       />
 
