@@ -24,7 +24,7 @@ export default function PublicLayout() {
         <div className="public-header-inner">
           <Link to="/" className="brand-lockup" aria-label="DecorArte, inicio">
             <img
-              src="./marca/logo-decorarte.png"
+              src="./marca/logo-decorarte.webp"
               alt="DecorArte — Las ideas también se decoran"
             />
             <span className="brand-fallback">DecorArte</span>
@@ -67,7 +67,7 @@ export default function PublicLayout() {
       <footer className="site-footer">
         <div className="footer-main">
           <div className="footer-brand">
-            <img src="./marca/logo-decorarte.png" alt="Logo DecorArte" />
+            <img src="./marca/logo-decorarte.webp" alt="Logo DecorArte" />
             <p>Manualidades y decoración hechas con dedicación.</p>
           </div>
           <div>
