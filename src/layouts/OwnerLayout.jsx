@@ -39,6 +39,8 @@ export default function OwnerLayout() {
     queryKey: ["configuracion-sitio", "owner-access"],
     queryFn: consultarPublicacion,
     refetchOnWindowFocus: true,
+    refetchInterval: 15000,
+    staleTime: 0,
   });
   const toggle = () =>
     setCollapsed((v) => {

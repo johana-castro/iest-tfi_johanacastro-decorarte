@@ -34,7 +34,7 @@ export default function AdminConfiguracion() {
 
   const mutation = useMutation({
     mutationFn: guardarConfiguracion,
-    onSuccess: (resultado) => { queryClient.setQueryData(['configuracion-sitio'], resultado); toast.success('Configuración del sitio actualizada.'); },
+    onSuccess: (resultado) => { queryClient.setQueryData(['configuracion-sitio'], resultado); queryClient.invalidateQueries({ queryKey: ['configuracion-sitio'] }); toast.success('Configuración del sitio actualizada.'); },
     onError: (err) => toast.error(err.message || 'No se pudo guardar la configuración.'),
   });
 

@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import PublicLayout from '../layouts/PublicLayout';
+import PublicacionGuard from '../components/public/PublicacionGuard';
 import AuthLayout from '../layouts/AuthLayout';
 import OwnerLayout from '../layouts/OwnerLayout';
 import AdminLayout from '../layouts/AdminLayout';
@@ -29,6 +30,7 @@ import OwnerCuenta from '../page/owner/OwnerCuenta';
 export default function AppRouter() {
   return <BrowserRouter>
     <Routes>
+      <Route element={<PublicacionGuard />}>
       <Route element={<PublicLayout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="/nosotros" element={<NosotrosPage />} />
@@ -37,6 +39,8 @@ export default function AppRouter() {
         <Route path="/preguntas-frecuentes" element={<PreguntasFrecuentesPage />} />
         <Route path="/contacto" element={<ContactoPage />} />
         <Route path="/presupuesto" element={<Navigate to="/contacto#presupuesto" replace />} />
+      </Route>
+
       </Route>
 
       <Route element={<PublicOnlyRoute />}><Route element={<AuthLayout />}><Route path="/login" element={<LoginPage />} /></Route></Route>
